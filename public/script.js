@@ -13,7 +13,7 @@ $('.back').click(function () {
 let isEmailAddress = email => {
     return /^[\w-]+(\.[\w-]+)*@[\w-]+(\.[\w-]+)+$/.test(email) || /w+([-+.]w+)*@w+([-.]w+)*.w+([-.]w+)*/.test(email);
 }
-let courseApi = 'https://rossius-hung.herokuapp.com/users';
+let courseApi = 'http://localhost:3000/users';
 function loadDocJQuery() {
     $.ajax(courseApi, {
         method: "GET"
