@@ -93,9 +93,9 @@ $('.save').click(function () {
     }
 
     let agrs = {
-        url: courseApi, 
-        type: "POST", 
-        data: { 
+        url: courseApi,
+        type: "POST",
+        data: {
             name: name,
             ngaysinh: ngaysinh,
             email: email,
@@ -103,31 +103,34 @@ $('.save').click(function () {
         },
     };
 
-    $.ajax(agrs).done(function() {
-        result+=`<tr>
-        <td>${data.name}</td>
-        <td>${data.ngaysinh}</td>
-        <td>${data.email}</td>
-        <td>${data.phone} </td>
-        <td class="fix-student">
-                    <div onclick=editor() class="edit">
-                        <i class="fas fa-edit"></i>
-                        <span >Chỉnh sửa</span>
-                    </div>
-                    <div class="border-a"></div>
-                    <div class="delete" onclick=deleteEdit(${user.id})>
-                        <i class="far fa-trash-alt"></i>
-                        <span>Xóa</span>
-                    </div>
-                </td>
-        </tr>`;
-        $('#table-users').html(result);
+    $.ajax(agrs).done(function () {
+        for(let i = 0;i<data.length;i++){
+            result += `<tr>
+            <td>${data[i].name}</td>
+            <td>${data[i].ngaysinh}</td>
+            <td>${data[i].email}</td>
+            <td>${data[i].phone} </td>
+            <td class="fix-student">
+                        <div onclick=editor() class="edit">
+                            <i class="fas fa-edit"></i>
+                            <span >Chỉnh sửa</span>
+                        </div>
+                        <div class="border-a"></div>
+                        <div class="delete" onclick=deleteEdit(${user.id})>
+                            <i class="far fa-trash-alt"></i>
+                            <span>Xóa</span>
+                        </div>
+                    </td>
+            </tr>`;
+            // $('#table-users').html(result);
+            document.getElementById('#table-users').innerHTML = result
+        }
+        
     });
-    $('header').removeClass("hide");
-    $('header').addClass("show");
-    $('.form-add').removeClass('show');
-    $('.form-add').addClass('hide');
-    location.reload();
+    // $('header').removeClass("hide");
+    // $('header').addClass("show");
+    // $('.form-add').removeClass('show');
+    // $('.form-add').addClass('hide');
 });
 
 function editor() {
