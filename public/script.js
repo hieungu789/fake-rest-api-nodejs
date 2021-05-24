@@ -123,7 +123,7 @@ $('.save').click(function () {
         </tr>`;
         $('#table-users').html(result);
     });
-
+    $('header').removeClass("hide");
     $('header').addClass("show");
     $('.form-add').removeClass('show');
     $('.form-add').addClass('hide');
