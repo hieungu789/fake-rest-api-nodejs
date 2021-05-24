@@ -131,6 +131,7 @@ $('.save').click(function () {
     // $('header').addClass("show");
     // $('.form-add').removeClass('show');
     // $('.form-add').addClass('hide');
+    location.reload();
 });
 
 function editor() {
