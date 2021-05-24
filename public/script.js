@@ -7,13 +7,12 @@ $('.back').click(function () {
     $('header').removeClass('hide');
     $('header').addClass("show");
     $('.form-edit').removeClass('show');
-    $('header').removeClass('hide');
-    $('header').addClass("show");
+
 });
 let isEmailAddress = email => {
     return /^[\w-]+(\.[\w-]+)*@[\w-]+(\.[\w-]+)+$/.test(email) || /w+([-+.]w+)*@w+([-.]w+)*.w+([-.]w+)*/.test(email);
 }
-let courseApi = 'https://rossius-hung.herokuapp.com/users';
+let courseApi = 'http://localhost:3000/users';
 function loadDocJQuery() {
     $.ajax(courseApi, {
         method: "GET"
@@ -23,22 +22,22 @@ function loadDocJQuery() {
         for (let i = 0; i < users.length; i++) {
             const user = users[i];
             content += `<tr>
-                <td>${user.name}</td>
-                <td>${user.ngaysinh}</td>
-                <td>${user.email}</td>
-                <td>${user.phone} </td>
-                <td class="fix-student">
-                            <div class="edit">
-                                <i class="fas fa-edit"></i>
-                                <span onclick=editor()>Chỉnh sửa</span>
-                            </div>
-                            <div class="border-a"></div>
-                            <div class="delete">
-                                <i class="far fa-trash-alt"></i>
-                                <span onclick=deleteEdit(${user.id})>Xóa</span>
-                            </div>
-                        </td>
-                </tr>`;
+              <td>${user.name}</td>
+              <td>${user.ngaysinh}</td>
+              <td>${user.email}</td>
+              <td>${user.phone} </td>
+              <td class="fix-student">
+                          <div onclick=editor() class="edit">
+                              <i class="fas fa-edit"></i>
+                              <span >Chỉnh sửa</span>
+                          </div>
+                          <div class="border-a"></div>
+                          <div class="delete" onclick=deleteEdit(${user.id})>
+                              <i class="far fa-trash-alt"></i>
+                              <span>Xóa</span>
+                          </div>
+                      </td>
+              </tr>`;
         }
         $("#table-users").html(content);
     });
@@ -88,42 +87,43 @@ $('.save').click(function () {
     if (_.isEmpty(phone)) {
         phone = "";
         $('#phone-error').text('Vui lòng nhập Số điện thoại')
-    } else if (phone.trim().length > 10) {
-        phone = "";
-        $('#phone-error').text('Không được quá 10 số')
-    } else if (phone.trim().length < 10) {
-        phone = "";
-        $('#phone-error').text('Không nhỏ hơn  10 số')
     }
     else {
         $('#email-error').text('')
     }
-    //   $.ajax(courseApi,{
-    //       method:"POST"
-    //   }).done(function(users){
 
-    //   })
-   let agrs = {
-        url: courseApi, // gửi ajax đến file result.php
-        type: "POST", // chọn phương thức gửi là post
-        dataType: "text", // dữ liệu trả về dạng text
-        data: { // Danh sách các thuộc tính sẽ gửi đi
+    let agrs = {
+        url: courseApi, 
+        type: "POST", 
+        data: { 
             name: name,
             ngaysinh: ngaysinh,
             email: email,
             phone: phone
         },
-        success: function (result) {
-            // Sau khi gửi và kết quả trả về thành công thì gán nội dung trả về
-            // đó vào thẻ div có id = result
-            $('#table-users').html(result);
-        }
     };
 
-    // Truyền object vào để gọi ajax
-    $.ajax(agrs);
+    $.ajax(agrs).done(function(result) {
+        result+=`<tr>
+        <td>${data.name}</td>
+        <td>${data.ngaysinh}</td>
+        <td>${data.email}</td>
+        <td>${data.phone} </td>
+        <td class="fix-student">
+                    <div onclick=editor() class="edit">
+                        <i class="fas fa-edit"></i>
+                        <span >Chỉnh sửa</span>
+                    </div>
+                    <div class="border-a"></div>
+                    <div class="delete" onclick=deleteEdit(${user.id})>
+                        <i class="far fa-trash-alt"></i>
+                        <span>Xóa</span>
+                    </div>
+                </td>
+        </tr>`;
+        $('#table-users').html(result);
+    });
 });
-
 
 function editor() {
     $('header').addClass('hide');
@@ -131,6 +131,7 @@ function editor() {
 }
 
 function deleteEdit(id) {
+
     let formData = {
         method: 'DELETE',
         Headers: {
@@ -138,9 +139,6 @@ function deleteEdit(id) {
         },
     };
     fetch(courseApi + '/' + id, formData)
-        .then(function (loadDocJQuery) {
-            loadDocJQuery.json();
-        })
         .then(function () {
             loadDocJQuery();
         });
