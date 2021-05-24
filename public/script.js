@@ -89,7 +89,7 @@ $('.save').click(function () {
         $('#phone-error').text('Vui lòng nhập Số điện thoại')
     }
     else {
-        $('#email-error').text('')
+        $('#phone-error').text('')
     }
 
     let agrs = {
@@ -103,7 +103,7 @@ $('.save').click(function () {
         },
     };
 
-    $.ajax(agrs).done(function(result) {
+    $.ajax(agrs).done(function() {
         result+=`<tr>
         <td>${data.name}</td>
         <td>${data.ngaysinh}</td>
