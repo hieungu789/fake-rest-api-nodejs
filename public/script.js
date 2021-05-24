@@ -123,6 +123,10 @@ $('.save').click(function () {
         </tr>`;
         $('#table-users').html(result);
     });
+
+    $('header').addClass("show");
+    $('.form-add').removeClass('show');
+    $('.form-add').addClass('hide');
 });
 
 function editor() {
