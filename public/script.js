@@ -117,9 +117,9 @@ $('.save').click(function () {
             }
         });
 //         location.reload();
-                $('main').addClass("show");
+                $('header').removeClass("hide");
+                $('header').addClass("show");
                 $('.form-add').removeClass('show'); 
-                $('main').removeClass("hide");
                 $('.form-add').addClass('hide');
     }
     
