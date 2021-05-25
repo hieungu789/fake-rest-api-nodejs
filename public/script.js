@@ -45,96 +45,82 @@ function loadDocJQuery() {
 $(function () {
     loadDocJQuery();
 });
+
+
 $('.save').click(function () {
     let name = $('#name').val();
     let ngaysinh = $('#ngaysinh').val();
     let email = $('#email').val();
     let phone = $('#phone').val();
-    // Name
-    if (_.isEmpty(name)) {
-        name = "";
-        $('#name-error').text('Vui lòng nhập họ và tên')
-    } else if (name.trim().length <= 2) {
-        name = "";
-        $('#name-error').text('Họ và tên không được nhỏ hơn 2 kí tự')
-    } else if (name.trim().length > 50) {
-        name = "";
-        $('#name-error').text('Họ và tên quá dài')
-    }
-    else {
-        $('#name-error').text('')
-    }
-    // Ngày Sinh
-    if (_.isEmpty(ngaysinh)) {
-        ngaysinh = ""
-        $('#ngaysinh-error').text('Vui lòng nhập Ngày tháng năm sinh')
-    }
-    else {
-        $('#ngaysinh-error').text('')
-    }
-    // Email
-    if (_.isEmpty(email)) {
-        email = "";
-        $('#email-error').text('Vui lòng nhập Email')
-    } else if (!isEmailAddress(email)) {
-        email = "";
-        $('#email-error').text('Sai Định dạng')
-    }
-    else {
-        $('#email-error').text('')
-    }
-    // Phone
-    if (_.isEmpty(phone)) {
-        phone = "";
-        $('#phone-error').text('Vui lòng nhập Số điện thoại')
-    }
-    else {
-        $('#phone-error').text('')
-    }
-
-    let agrs = {
-        url: courseApi,
-        type: "POST",
-        data: {
-            name: name,
-            ngaysinh: ngaysinh,
-            email: email,
-            phone: phone
-        },
-    };
-
-    $.ajax(agrs).done(function () {
-        for(let i = 0;i<data.length;i++){
-            result += `<tr>
-            <td>${data[i].name}</td>
-            <td>${data[i].ngaysinh}</td>
-            <td>${data[i].email}</td>
-            <td>${data[i].phone} </td>
-            <td class="fix-student">
-                        <div onclick=editor() class="edit">
-                            <i class="fas fa-edit"></i>
-                            <span >Chỉnh sửa</span>
-                        </div>
-                        <div class="border-a"></div>
-                        <div class="delete" onclick=deleteEdit(${user.id})>
-                            <i class="far fa-trash-alt"></i>
-                            <span>Xóa</span>
-                        </div>
-                    </td>
-            </tr>`;
-            // $('#table-users').html(result);
-            document.getElementById('#table-users').innerHTML = result
+    // let isValidate = true;
+    if (name === "" || name.length <= 2 || name.length > 50 || ngaysinh === "" || !isEmailAddress(email) ||email === "" || phone === "") {
+        if (_.isEmpty(name)) {
+            name = ""
+            $('#name-error').text('Vui lòng nhập họ và tên')
+        } else if (name.trim().length <= 2 ||name.trim().length > 50) {
+            name = ""
+            $('#name-error').text('Họ và tên lớn hơn 2 và nhỏ hơn 50 kí tự')
         }
-        
-    });
-    // $('header').removeClass("hide");
-    // $('header').addClass("show");
-    // $('.form-add').removeClass('show');
-    // $('.form-add').addClass('hide');
-    location.reload();
+        if (_.isEmpty(ngaysinh)) {
+            ngaysinh = ''
+            $('#ngaysinh-error').text('Vui lòng nhập Ngày tháng năm sinh')
+        }
+        if (_.isEmpty(email)) {
+            email = ''
+            $('#email-error').text('Vui lòng nhập Email')
+        } else if (!isEmailAddress(email)) {
+            email = ''
+            $('#email-error').text('Sai Định dạng')
+        }
+        if (_.isEmpty(phone)) {
+            phone = ''
+            $('#phone-error').text('Vui lòng nhập Số điện thoại')
+        }
+
+    } else {
+
+        $('#name-error').text('')
+        $('#ngaysinh-error').text('')
+        $('#email-error').text('')
+        $('#phone-error').text('')
+        let agrs = {
+            url: courseApi,
+            type: "POST",
+            data: {
+                name: name,
+                ngaysinh: ngaysinh,
+                email: email,
+                phone: phone
+            },
+        };
+        $.ajax(agrs).done(function () {
+            for (let i = 0; i < data.length; i++) {
+                result += `<tr>
+                    <td>${data[i].name}</td>
+                    <td>${data[i].ngaysinh}</td>
+                    <td>${data[i].email}</td>
+                    <td>${data[i].phone} </td>
+                    <td class="fix-student">
+                                <div onclick=edit() class="edit">
+                                    <i class="fas fa-edit"></i>
+                                    <span >Chỉnh sửa</span>
+                                </div>
+                                <div class="border-a"></div>
+                                <div class="delete" onclick=deleteEdit(${user.id})>
+                                    <i class="far fa-trash-alt"></i>
+                                    <span>Xóa</span>
+                                </div>
+                            </td>
+                    </tr>`;
+
+                document.getElementById('#table-users').innerHTML = result
+            }
+        });
+    }
 });
 
-function editor() {
+
+function edit() {
     $('header').addClass('hide');
     $('.form-edit').addClass('show');
 }
