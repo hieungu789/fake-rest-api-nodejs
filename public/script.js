@@ -117,6 +117,7 @@ $('.save').click(function () {
             }
         });
     }
+    location.reload();
 });
 
 
