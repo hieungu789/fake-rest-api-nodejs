@@ -116,11 +116,8 @@ $('.save').click(function () {
                 document.getElementById('#table-users').innerHTML = result
             }
         });
-//         location.reload();
-                $('header').removeClass("hide");
-                $('header').addClass("show");
-                $('.form-add').removeClass('show'); 
-                $('.form-add').addClass('hide');
+        location.reload();
+
     }
     
 });
