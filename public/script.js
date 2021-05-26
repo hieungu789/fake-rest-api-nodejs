@@ -122,10 +122,7 @@ $('.save').click(function valData() {
             }
             
         });
-       $('.form-add').removeClass('show');
-        $('.form-add').addClass('hide');
-        $('main').removeClass('hide');
-        $('main').addClass("show");
+ location.reload();
     }
 });
 
@@ -193,10 +190,7 @@ function editor(id) {
                             }
                         }).done(function (data) {
                             console.log(data)
-                            $('main').removeClass('hide');
-                            $('main').addClass('show');
-                            $('.form-edit').removeClass('show');
-                            $('.form-edit').addClass('hide');
+          location.reload();
                         })
                     }
    
