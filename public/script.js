@@ -120,9 +120,7 @@ $('.save').click(function valData() {
                 document.getElementById('#table-users').innerHTML = result;
                
             }
-                    $('.form-add').removeClass('show');
-        $('main').removeClass('hide');
-        $('main').addClass("show");
+            location.reload();
         });
     }
 });
