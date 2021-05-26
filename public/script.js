@@ -188,6 +188,7 @@ function editor(id) {
                             }
                         }).done(function (data) {
                             console.log(data)
+                            location.reload();
                         })
                     }
    
