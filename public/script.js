@@ -209,6 +209,8 @@ function editDete(id) {
             if (idItem) {
                 idItem.remove();
             }
+             $('.thong-bao').removeClass('show')
+            $('.thong-bao').addClass('hide')
         })
     });
     $('.no').click(function () {
