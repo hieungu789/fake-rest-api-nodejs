@@ -122,7 +122,9 @@ $('.save').click(function valData() {
             }
             
         });
-        location.reload();
+        $('.form-add').removeClass('show');
+        $('main').removeClass('hide');
+        $('main').addClass("show");
     }
 });
 
