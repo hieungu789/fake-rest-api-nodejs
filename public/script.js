@@ -118,8 +118,11 @@ $('.save').click(function valData() {
                     </tr>`;
 
                 document.getElementById('#table-users').innerHTML = result;
-                location.reload();
+               
             }
+                    $('.form-add').removeClass('show');
+        $('main').removeClass('hide');
+        $('main').addClass("show");
         });
     }
 });
