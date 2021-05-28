@@ -120,9 +120,9 @@ $('.save').click(function valData() {
                 document.getElementById('#table-users').innerHTML = result;
                
             }
-            
+            location.reload();
         });
- location.reload();
+ 
     }
 });
 
