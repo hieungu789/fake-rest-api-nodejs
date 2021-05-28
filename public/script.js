@@ -47,7 +47,7 @@ $(function () {
 });
 
 
-$('.save').click(function valData() {
+$('.save').click(function () {
     let name = $('#name').val();
     let ngaysinh = $('#ngaysinh').val();
     let email = $('#email').val();
@@ -96,7 +96,7 @@ $('.save').click(function valData() {
                 phone: phone
             },
         };
-        $.ajax(agrs).done(function () {
+        $.ajax(agrs).done(function (data) {
             let result;
             for (let i = 0; i < data.length; i++) {
                 result += `<tr>
