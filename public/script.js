@@ -117,10 +117,11 @@ $('.save').click(function () {
                             </td>
                     </tr>`;
 
-                document.getElementById('#table-users').innerHTML = result;
+                
                
             }
-            location.reload();
+            document.getElementById('#table-users').innerHTML = result;
+//             location.reload();
         });
  
     }
