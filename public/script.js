@@ -12,13 +12,16 @@ $('.back').click(function () {
 let isEmailAddress = email => {
     return /^[\w-]+(\.[\w-]+)*@[\w-]+(\.[\w-]+)+$/.test(email) || /w+([-+.]w+)*@w+([-.]w+)*.w+([-.]w+)*/.test(email);
 }
+
+
 let courseApi = 'https://rossius-hung.herokuapp.com/users';
+
 function loadDocJQuery() {
     $.ajax(courseApi, {
         method: "GET"
     }).done(function (users) {
-        let content = "";
 
+        let content = "";
         for (let i = 0; i < users.length; i++) {
             const user = users[i];
             content += `<tr class="content-Item-${user.id}">
@@ -42,10 +45,10 @@ function loadDocJQuery() {
         $("#table-users").html(content);
     });
 }
+
 $(function () {
     loadDocJQuery();
 });
-
 
 $('.save').click(function () {
     let name = $('#name').val();
@@ -97,33 +100,10 @@ $('.save').click(function () {
             },
         };
         $.ajax(agrs).done(function (data) {
-            let result;
-            for (let i = 0; i < data.length; i++) {
-                result += `<tr>
-                    <td>${data[i].name}</td>
-                    <td>${data[i].ngaysinh}</td>
-                    <td>${data[i].email}</td>
-                    <td>${data[i].phone} </td>
-                    <td class="fix-student">
-                                <div onclick="editor(${user.id})" class="edit">
-                                    <i class="fas fa-edit"></i>
-                                    <span >Chỉnh sửa</span>
-                                </div>
-                                <div class="border-a"></div>
-                                <div onclick="editDete(${user.id})" class="delete" >
-                                    <i class="far fa-trash-alt"></i>
-                                    <span>Xóa</span>
-                                </div>
-                            </td>
-                    </tr>`;
-
-                
-               
-            }
-            document.getElementById('#table-users').innerHTML = result;
+            loadDocJQuery(data)
             location.reload();
         });
- 
+
     }
 });
 
@@ -137,6 +117,7 @@ function editor(id) {
         for (let i = 0; i < users.length; i++) {
             let user = users[i]
             if (user.id === id) {
+
                 $('#name-edit').val(user.name)
                 $('#ngaysinh-edit').val(user.ngaysinh)
                 $('#email-edit').val(user.email)
@@ -178,48 +159,43 @@ function editor(id) {
                         } else {
                             $('#phone-error-edit').text('')
                         }
-                
-                    } else{
-                        $.ajax({
-                            url: courseApi + '/' + id,
+
+                    } else {
+                        $.ajax(courseApi + '/' + id, {
+                            // url: courseApi + '/' + id,
                             method: 'PUT',
-                            data:{
+                            data: {
                                 name: name,
                                 ngaysinh: ngaysinh,
                                 email: email,
                                 phone: phone
                             }
                         }).done(function (data) {
-                            console.log(data)
-          location.reload();
+                            loadDocJQuery(data)
+                            $('.form-edit').removeClass('show');
+                            $('main').removeClass('hide');
+                            $('main').addClass("show");
                         })
+
                     }
-   
                 });
             }
         }
     });
 }
+
 function editDete(id) {
-    $('.thong-bao').removeClass('hide')
-    $('.thong-bao').addClass('show')
-    $('.yes').click(function () {
-        return $.ajax({
-            method: "DELETE",
-            url: courseApi + "/" + id,
+    let result = confirm('Bạn muốn xóa sinh viên này')
+    if (result) {
+        $.ajax(courseApi + "/" + id, {
+            method: "DELETE"
         }).done(function () {
             let idItem = document.querySelector('.content-Item-' + id);
             if (idItem) {
                 idItem.remove();
             }
-             $('.thong-bao').removeClass('show')
-            $('.thong-bao').addClass('hide')
         })
-    });
-    $('.no').click(function () {
-        $('.thong-bao').removeClass('show')
-        $('.thong-bao').addClass('hide')
-    });
+    }
 }
 
 
