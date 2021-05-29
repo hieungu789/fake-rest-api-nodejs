@@ -99,8 +99,7 @@ $('.save').click(function () {
                 phone: phone
             },
         };
-        $.ajax(agrs).done(function (data) {
-            loadDocJQuery(data)
+        $.ajax(agrs).done(function () {
             location.reload();
         });
 
@@ -117,7 +116,7 @@ function editor(id) {
         for (let i = 0; i < users.length; i++) {
             let user = users[i]
             if (user.id === id) {
-
+                console.log(id)
                 $('#name-edit').val(user.name)
                 $('#ngaysinh-edit').val(user.ngaysinh)
                 $('#email-edit').val(user.email)
@@ -162,7 +161,6 @@ function editor(id) {
 
                     } else {
                         $.ajax(courseApi + '/' + id, {
-                            // url: courseApi + '/' + id,
                             method: 'PUT',
                             data: {
                                 name: name,
@@ -170,20 +168,18 @@ function editor(id) {
                                 email: email,
                                 phone: phone
                             }
-                        }).done(function (data) {
-                            loadDocJQuery(data)
-                            $('.form-edit').removeClass('show');
-                            $('main').removeClass('hide');
-                            $('main').addClass("show");
-                        })
-
+                        }).done(function () {
+                            location.reload()
+                        });
                     }
                 });
             }
         }
     });
 }
-
+$('.form-edit').removeClass('show');
+$('main').removeClass('hide');
+$('main').addClass("show");
 function editDete(id) {
     let result = confirm('Bạn muốn xóa sinh viên này')
     if (result) {
