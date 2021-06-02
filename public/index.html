@@ -17,11 +17,18 @@
 <body>
        <main>
         <h1>Danh Sách Học Viên</h1>
-        <div class="box-item">
-            <div class="add-student">
-                <i class="fas fa-plus-circle"></i>
-                <span>Thêm Học Viên</span>
+
+        <div class="box">
+            <div class="box-item">
+                <div class="add-student">
+                    <i class="fas fa-plus-circle"></i>
+                    <span>Thêm Học Viên</span>
+                </div>
+                <div class="login">
+                    <span>Đăng Nhập</span>
+                </div>
             </div>
+
             <table class="table">
                 <thead>
                     <tr class="table-title">
@@ -36,7 +43,9 @@
 
                 </tbody>
             </table>
+            
         </div>
+
        </main>
     <div class="form-add">
         <h1>Thêm mới học viên </h1>
@@ -66,7 +75,7 @@
                 <div class="form_item">
                     <div class="form__row">
                         <label class="form__label" for="phone">Phone <span>*</span></label>
-                        <input class="form__input" type="number" id="phone">
+                        <input class="form__input" type="text" id="phone">
                     </div>
                     <span id="phone-error"></span>
                 </div>
@@ -132,14 +141,6 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="thong-bao">
-        <span>Bạn muốn xóa sinh viên này?</span>
-        <div class="thong-baoEdit">
-            <p class="yes">Xác Nhận</p>
-            <p class="no">Hủy Bỏ</p>
-        </div>
-    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src='https://cdn.jsdelivr.net/g/lodash@4(lodash.min.js+lodash.fp.min.js)'></script>
     <script src="script.js"></script>
