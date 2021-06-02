@@ -177,9 +177,6 @@ function editor(id) {
         }
     });
 }
-$('.form-edit').removeClass('show');
-$('main').removeClass('hide');
-$('main').addClass("show");
 function editDete(id) {
     let result = confirm('Bạn muốn xóa sinh viên này')
     if (result) {
