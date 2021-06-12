@@ -16,39 +16,39 @@ let isEmailAddress = email => {
 
 let courseApi = 'https://rossius-hung.herokuapp.com/users';
 
-function loadDocJQuery() {
-    $.ajax(courseApi, {
-        method: "GET"
-    }).done(function (users) {
+// function loadDocJQuery() {
+//     $.ajax(courseApi, {
+//         method: "GET"
+//     }).done(function (users) {
 
-        let content = "";
-        for (let i = 0; i < 2; i++) {
-            const user = users[i];
-            content += `<tr class="content-Item-${user.id}">
-              <td>${user.name}</td>
-              <td>${user.ngaysinh}</td>
-              <td>${user.email}</td>
-              <td>${user.phone} </td>
-              <td class="fix-student">
-                          <div onclick='editor(${user.id})' class="edit">
-                              <i class="fas fa-edit"></i>
-                              <span >Chỉnh sửa</span>
-                          </div>
-                          <div class="border-a"></div>
-                          <div class="delete" onclick='editDete(${user.id})'>
-                              <i class="far fa-trash-alt"></i>
-                              <span>Xóa</span>
-                          </div>
-                      </td>
-              </tr>`;
-        }
-        $("#table-users").html(content);
-    });
-}
+//         let content = "";
+//         for (let i = 0; i < users.length; i++) {
+//             const user = users[i];
+//             content += `<tr class="content-Item-${user.id}">
+//               <td>${user.name}</td>
+//               <td>${user.ngaysinh}</td>
+//               <td>${user.email}</td>
+//               <td>${user.phone} </td>
+//               <td class="fix-student">
+//                           <div onclick='editor(${user.id})' class="edit">
+//                               <i class="fas fa-edit"></i>
+//                               <span >Chỉnh sửa</span>
+//                           </div>
+//                           <div class="border-a"></div>
+//                           <div class="delete" onclick='editDete(${user.id})'>
+//                               <i class="far fa-trash-alt"></i>
+//                               <span>Xóa</span>
+//                           </div>
+//                       </td>
+//               </tr>`;
+//         }
+//         $("#table-users").html(content);
+//     });
+// }
 
-$(function () {
-    loadDocJQuery();
-});
+// $(function () {
+//     loadDocJQuery();
+// });
 
 $('.save').click(function () {
     let name = $('#name').val();
@@ -198,27 +198,32 @@ function search() {
     $.ajax(`https://rossius-hung.herokuapp.com/users?q=${sever}`, {
         method: 'GET'
     }).done(function (user) {
-        let content = "";
-        for (let i = 0; i < 2; i++) {
-            content += `<tr class="content-Item-${user[i].id}">
-              <td>${user[i].name}</td>
-              <td>${user[i].ngaysinh}</td>
-              <td>${user[i].email}</td>
-              <td>${user[i].phone} </td>
-              <td class="fix-student">
-                          <div onclick='editor(${user[i].id})' class="edit">
-                              <i class="fas fa-edit"></i>
-                              <span >Chỉnh sửa</span>
-                          </div>
-                          <div class="border-a"></div>
-                          <div class="delete" onclick='editDete(${user[i].id})'>
-                              <i class="far fa-trash-alt"></i>
-                              <span>Xóa</span>
-                          </div>
-                      </td>
-              </tr>`;
+
+        if (sever === '') {
+            return pagination(1)
+        } else {
+            let content = "";
+            for (let i = 0; i < user.length; i++) {
+                content += `<tr class="content-Item-${user[i].id}">
+                  <td>${user[i].name}</td>
+                  <td>${user[i].ngaysinh}</td>
+                  <td>${user[i].email}</td>
+                  <td>${user[i].phone} </td>
+                  <td class="fix-student">
+                              <div onclick='editor(${user[i].id})' class="edit">
+                                  <i class="fas fa-edit"></i>
+                                  <span >Chỉnh sửa</span>
+                              </div>
+                              <div class="border-a"></div>
+                              <div class="delete" onclick='editDete(${user[i].id})'>
+                                  <i class="far fa-trash-alt"></i>
+                                  <span>Xóa</span>
+                              </div>
+                          </td>
+                  </tr>`;
+            }
+            $("#table-users").html(content);
         }
-        $("#table-users").html(content);
     })
 }
 
@@ -271,3 +276,6 @@ function pagination(numberPage) {
         $("#table-users").html(content);
     });
 }
+$(function () {
+    pagination(1);
+});
