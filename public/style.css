@@ -35,19 +35,22 @@ tr:nth-child(even) {
   display: flex;
   justify-content: space-between;
 }
-.login{
-  background-color: #347BFF;
-
+.search-Box{
+  display: flex;
 }
-.login span{
-  color:#fff ;
+.search-Input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.login:hover{
-  background-color: #1c64eb
+.search-Input input{
+  padding: 2px 5px;
+  margin: 15px;
 }
 
 .add-student{
   background-color: #00A751;
+  padding: 10px;
 }
 .add-student span{
   color: white;
@@ -96,7 +99,7 @@ a{
   color: #fff;
 }
 .add-student,.login {
-  padding: 10px;
+
   box-shadow: 1px 1px 1px 1px rgb(211, 203, 203);
   border-radius: 5px;
   max-width:165px;
@@ -192,5 +195,9 @@ a{
 }
 .form_item{
   text-align: center;
+}
+.pagination {
+  align-items: center;
+  justify-content: center;
 }
 
