@@ -22,7 +22,7 @@ function loadDocJQuery() {
     }).done(function (users) {
 
         let content = "";
-        for (let i = 0; i < users.length; i++) {
+        for (let i = 0; i < 2; i++) {
             const user = users[i];
             content += `<tr class="content-Item-${user.id}">
               <td>${user.name}</td>
@@ -102,7 +102,6 @@ $('.save').click(function () {
         $.ajax(agrs).done(function () {
             location.reload();
         });
-
     }
 });
 
@@ -177,6 +176,9 @@ function editor(id) {
         }
     });
 }
+
+
+
 function editDete(id) {
     let result = confirm('Bạn muốn xóa sinh viên này')
     if (result) {
@@ -191,5 +193,81 @@ function editDete(id) {
     }
 }
 
+function search() {
+    let sever = $('#search').val();
+    $.ajax(`https://rossius-hung.herokuapp.com/users?q=${sever}`, {
+        method: 'GET'
+    }).done(function (user) {
+        let content = "";
+        for (let i = 0; i < 2; i++) {
+            content += `<tr class="content-Item-${user[i].id}">
+              <td>${user[i].name}</td>
+              <td>${user[i].ngaysinh}</td>
+              <td>${user[i].email}</td>
+              <td>${user[i].phone} </td>
+              <td class="fix-student">
+                          <div onclick='editor(${user[i].id})' class="edit">
+                              <i class="fas fa-edit"></i>
+                              <span >Chỉnh sửa</span>
+                          </div>
+                          <div class="border-a"></div>
+                          <div class="delete" onclick='editDete(${user[i].id})'>
+                              <i class="far fa-trash-alt"></i>
+                              <span>Xóa</span>
+                          </div>
+                      </td>
+              </tr>`;
+        }
+        $("#table-users").html(content);
+    })
+}
 
-
+$.ajax('https://rossius-hung.herokuapp.com/users?_page=1&_limit=2', {
+    method: "GET"
+}).done(function (data, textStatus, request) {
+    console.log(data, textStatus, request.getResponseHeader('x-Total-Count'))
+    let soTrang = Math.ceil(request.getResponseHeader('x-Total-Count') / 2)
+    let content = "";
+    content += `<li class="page-item">
+    <a class="page-link" href="#" aria-label="Previous">
+      <span aria-hidden="true">&laquo;</span>
+    </a>
+  </li>`
+    for (let i = 0; i < soTrang; i++) {
+        content += `
+         <li class="page-item"><a onclick="pagination(${[i + 1]})" class="page-link" href="#">${[i + 1]}</a></li>`
+    }
+    content += `<li class="page-item">
+    <a class="page-link" href="#" aria-label="Next">
+      <span aria-hidden="true">&raquo;</span>
+    </a>
+    </li>`
+    $('.pagination').html(content)
+})
+function pagination(numberPage) {
+    $.ajax(`https://rossius-hung.herokuapp.com/users?_page=${numberPage}&_limit=2`, {
+        method: 'GET'
+    }).done(function (user) {
+        let content = "";
+        for (let i = 0; i < user.length; i++) {
+            content += `<tr class="content-Item-${user[i].id}">
+              <td>${user[i].name}</td>
+              <td>${user[i].ngaysinh}</td>
+              <td>${user[i].email}</td>
+              <td>${user[i].phone} </td>
+              <td class="fix-student">
+                          <div onclick='editor(${user[i].id})' class="edit">
+                              <i class="fas fa-edit"></i>
+                              <span >Chỉnh sửa</span>
+                          </div>
+                          <div class="border-a"></div>
+                          <div class="delete" onclick='editDete(${user[i].id})'>
+                              <i class="far fa-trash-alt"></i>
+                              <span>Xóa</span>
+                          </div>
+                      </td>
+              </tr>`;
+        }
+        $("#table-users").html(content);
+    });
+}
