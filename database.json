@@ -62,6 +62,7 @@
       "img": "https://techmaster.vn/media/fileman/Uploads/HTML/React.jpg",
       "title": "Web Frontend nâng cao với React",
       "desc": "Phòng lab, 16 buổi",
+        "slug": "Web-Frontend-nang-cao-voi-React",
       "evaluate": 4.8,
       "price": 4500000
     },
@@ -70,6 +71,7 @@
       "img": "https://techmaster.vn/media/static/9479/c3859vc51co20t4m4qq0",
       "title": "Javascript căn bản - Tổng hợp 12 game huyền thoại",
       "desc": "Phòng lab, 8 buổi",
+       "slug": "Javascript-can-ban - Tong-hop-12-game-huyen-thoai",
       "evaluate": 4.5,
       "price": 3000000
     },
@@ -78,48 +80,54 @@
       "img": "https://techmaster.vn/media/static/bub3enc51co7s932dsk0/c10tsqk51coag9451f50",
       "title": "Lập trình di động Flutter cho IOS - Android",
       "desc": "Phòng lab, 14 buổi",
+      "slug": "Lap-trinh-di-dong-Flutter-cho-IOS - Android",
       "evaluate": 4.6,
-      "price": 3900000
+      "price": 4500000
     },
     {
       "id": 4,
       "img": "https://techmaster.vn/media/fileman/Uploads/users/5463/ios2.jpg",
       "title": "Lập trình iOS Swift căn bản cập nhật 2021",
       "desc": "Phòng lab, 12 buổi",
+      "slug": "Lap-trinh-ios-swift-can-ban-cap-nhap-2021",
       "evaluate": 4.6,
-      "price": 3900000
+      "price": 6000000
     },
     {
       "id": 5,
       "img": "https://techmaster.vn/media/static/36/bu7uud451co41h2qctsg",
       "title": "Java căn bản",
       "desc": "Phòng lap, 16 buổi",
+      "slug": "Java-can-ban",
       "evaluate": 4.6,
-      "price": 3900000
+      "price": 3200000
     },
     {
       "id": 6,
       "img": "https://techmaster.vn/media/static/6734/bo5caps51coco9d0vu80",
       "title": "PostgreSQL Performance Tuning",
       "desc": "Phòng lap,6 buổi",
+      "slug": "Lap-trinh-di-dong-Flutter-cho-IOS - Android",
       "evaluate": 4.6,
-      "price": 3900000
+      "price": 3500000
     },
     {
       "id": 7,
       "img": "https://techmaster.vn/media/static/6734/br1767k51co8228nk56g",
-      "title": "Khoá học Deep Learning 2020 (TensorFlow 2.x, Python",
+      "title": "Khoá học Deep Learning 2020 (TensorFlow 2.x, Python)",
       "desc": "Phòng lap,12 buổi",
+      "slug": "Khoa-hoc-deep-learning-2020-(TensorFlow 2.x,Python")",
       "evaluate": 4.6,
-      "price": 3900000
+      "price": 2900000
     },
     {
       "id": 8,
       "img": "https://techmaster.vn/media/static/6734/bsckujs51cob9t3q7mi0",
       "title": "Khoá học Kubernetes căn bản qua các ví dụ",
       "desc": "Phòng lap, 8 buổi",
+      "slug": "Khoa-hoc-kubernetes-can-ban-qua-cac-vi-du",
       "evaluate": 4.6,
-      "price": 3900000
+      "price": 5000000
     }
     
   ]
