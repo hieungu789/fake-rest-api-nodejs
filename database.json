@@ -131,152 +131,202 @@
     }
     
   ],
- "playlist": [
-    {
-      "id": "52U82",
-      "title": "Mới Phát Hành"
-    },
-    {
-      "id": "26G94",
-      "title": "Nhạc Nước Ngoài"
-    },
-    {
-      "title": "Những Bản Hits Việt",
-      "id": "COSm5m7jUF"
-    },
-    {
-      "title": "Nghệ Sĩ",
-      "id": "8Sj30vanny"
-    }
-  ],
   "album": [
     {
-      "playlistId": "52U82",
-      "id": "sky-tour",
-      "img": "https://i.scdn.co/image/ab67616d00001e027663e8afc902209090664782",
-      "name": "Sky Tour",
-      "describe": "Original Motion Picture Soundtrack"
-    },
+    "cover": "https://photo-playlist-zmp3.zadn.vn/s1/mixtape?src=HavwqN7EYmrDGr6VBegUMHOLKPiyqPa4L1K6cppHpXfK2rFEQzFF6m810feutyyS1r5Md6Y3cXm0M0FFQ8235K4C3uawYyXN23yKZZQypXnLTG7QRUhE64Sk1eSgwieO4Iu2d2gdcKX7U02RAA2R74OgLCadfCbC77rHdoUYdKaQUHsJC_MH3qXgMiTbeyvLVWGXfco_nbXB8dq&cv=1&size=thumb/240_240",
+    "songs": [
+        {
+            "artist": "Sia",
+            "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fnh%E1%BB%AFng-b%C3%A0i-h%C3%A1t-hay-nh%E1%BA%A5t-c%E1%BB%A7a-sia%2FCheap-Thrills-Sia.mp3?alt=media&token=6cecd82a-d3d3-4132-a8b8-b68877ed33ca",
+            "title": "Cheap Thrills",
+            "duration": 211.69632653061225,
+            "picture": ""
+        },
+        {
+            "title": "Cheap Thrills",
+            "artist": "Sia, Sean Paul",
+            "duration": 224.52244897959184,
+            "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fnh%E1%BB%AFng-b%C3%A0i-h%C3%A1t-hay-nh%E1%BA%A5t-c%E1%BB%A7a-sia%2FCheap-Thrills-Sia-Sean-Paul.mp3%2Fnh%E1%BB%AFng-b%C3%A0i-h%C3%A1t-hay-nh%E1%BA%A5t-c%E1%BB%A7a-sia?alt=media&token=be1aa043-33f0-46ad-a6ff-03ffe88f385d",
+            "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fnh%E1%BB%AFng-b%C3%A0i-h%C3%A1t-hay-nh%E1%BA%A5t-c%E1%BB%A7a-sia%2FCheap-Thrills-Sia-Sean-Paul.mp3?alt=media&token=1f03c7aa-c1c5-429a-936f-8143c3cbdadb"
+        },
+        {
+            "artist": "ZAYN, Sia",
+            "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fnh%E1%BB%AFng-b%C3%A0i-h%C3%A1t-hay-nh%E1%BA%A5t-c%E1%BB%A7a-sia%2FDusk-Till-Dawn-ZAYN-Sia.mp3%2Fnh%E1%BB%AFng-b%C3%A0i-h%C3%A1t-hay-nh%E1%BA%A5t-c%E1%BB%A7a-sia?alt=media&token=a680973c-7b6e-4ad5-a435-bcef6223493e",
+            "duration": 267.31102040816324,
+            "title": "Dusk Till Dawn",
+            "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fnh%E1%BB%AFng-b%C3%A0i-h%C3%A1t-hay-nh%E1%BA%A5t-c%E1%BB%A7a-sia%2FDusk-Till-Dawn-ZAYN-Sia.mp3?alt=media&token=2ed3daae-773c-4225-8a89-c2c24fc5bae8"
+        },
+        {
+            "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fnh%E1%BB%AFng-b%C3%A0i-h%C3%A1t-hay-nh%E1%BA%A5t-c%E1%BB%A7a-sia%2FMove-Your-Body-Alan-Walker-Remix-Sia.mp3?alt=media&token=42194ff5-3dfd-48ed-9ed7-dfd7a2f42dc6",
+            "artist": "Sia",
+            "duration": 217.9395918367347,
+            "picture": "",
+            "title": "Move Your Body (Alan Walker Remix)"
+        },
+        {
+            "title": "Snowman",
+            "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fnh%E1%BB%AFng-b%C3%A0i-h%C3%A1t-hay-nh%E1%BA%A5t-c%E1%BB%A7a-sia%2FSnowman-Sia.mp3?alt=media&token=302f39b2-9b74-4122-9eea-5e9955fedfda",
+            "artist": "Sia",
+            "duration": 165.95591836734692,
+            "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fnh%E1%BB%AFng-b%C3%A0i-h%C3%A1t-hay-nh%E1%BA%A5t-c%E1%BB%A7a-sia%2FSnowman-Sia.mp3%2Fnh%E1%BB%AFng-b%C3%A0i-h%C3%A1t-hay-nh%E1%BA%A5t-c%E1%BB%A7a-sia?alt=media&token=627191db-2800-42e6-9a83-5641beb8cdc8"
+        },
+        {
+            "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fnh%E1%BB%AFng-b%C3%A0i-h%C3%A1t-hay-nh%E1%BA%A5t-c%E1%BB%A7a-sia%2FUnstoppable-Sia.mp3%2Fnh%E1%BB%AFng-b%C3%A0i-h%C3%A1t-hay-nh%E1%BA%A5t-c%E1%BB%A7a-sia?alt=media&token=9e485b01-9c40-4eee-a27a-35bf3ad91698",
+            "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fnh%E1%BB%AFng-b%C3%A0i-h%C3%A1t-hay-nh%E1%BA%A5t-c%E1%BB%A7a-sia%2FUnstoppable-Sia.mp3?alt=media&token=1fe7e642-25fc-40be-838f-f8211ecf9e36",
+            "title": "Unstoppable",
+            "artist": "Sia",
+            "duration": 217.78285714285715
+        }
+    ],
+    "title": "Những Bài Hát Hay Nhất Của SIA",
+    "id": "0OoLHCgYs69TKCwRKiFV"
+},
     {
-      "playlistId": "26G94",
-      "id": "us-uk",
-      "img": "https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/cover/8/8/a/1/88a128c0862363b40d395dff2a62921e.jpg",
-      "name": "US-UK",
-      "describe": "US-UK"
-    },
-    {
-      "playlistId": "52U82",
-      "id": "nhac-nhat-ban",
-      "img": "https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/cover/f/6/a/3/f6a38f61be9a013074a4d205df85c967.jpg",
-      "name": "Nhạc Nhật Bản",
-      "describe": "Nhạc Nhật Bản"
-    },
-    {
-      "playlistId": "52U82",
-      "img": "https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/cover/d/7/e/c/d7ecb082dba115306a38be3d5287ba24.jpg",
-      "name": "K-Pop Hits!",
-      "describe": "Những bản nhạc K-pop đang hot",
-      "id": "hmt64ju1WL"
-    },
-    {
-      "playlistId": "8Sj30vanny",
-      "img": "https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/cover/6/b/6/1/6b613c83afb189872d24e2b69e6327e2.jpg",
-      "bg_color": "#000000",
-      "bg_album": "",
-      "name": "The Weekend",
-      "describe": "All song from The Weekend",
-      "id": "L0OqU38mlN"
-    },
-    {
-      "playlistId": "COSm5m7jUF",
-      "img": "https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/cover/3/f/d/0/3fd0229f5cf4ef79e652b4821fd0f97b.jpg",
-      "bg_color": "#000000",
-      "bg_album": "",
-      "name": "V-Pop 2021 Nghe Gì?",
-      "describe": "Những Giai Điệu V-Pop Tươi Vui",
-      "id": "gNSj4Qd5tw"
-    }
+  "title": "EDM 50: Zing Choice",
+  "cover": "https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/cover/8/8/a/1/88a128c0862363b40d395dff2a62921e.jpg",
+  "songs": [
+      {
+          "title": "Alone",
+          "artist": "Marshmello",
+          "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FAlone-Marshmello.mp3%2Fedm-50%3A-zing-choice?alt=media&token=d11532b0-6dec-4f39-b072-b281c8bbef82",
+          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FAlone-Marshmello.mp3?alt=media&token=b66da9e3-b19b-4b99-9b7e-7fa3eeed1f8f",
+          "duration": 273.8416326530612
+      },
+      {
+          "artist": "Calvin Harris, Tom Grennan",
+          "title": "By Your Side",
+          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FBy-Your-Side-Calvin-Harris-Tom-Grennan.mp3?alt=media&token=3422b4c0-5ae8-4d36-934d-45474b81bc79",
+          "duration": 189.70122448979592,
+          "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FBy-Your-Side-Calvin-Harris-Tom-Grennan.mp3%2Fedm-50%3A-zing-choice?alt=media&token=0e3f7993-559e-4035-8f5a-b2c10a3502d1"
+      },
+      {
+          "duration": 245.55102040816325,
+          "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FCloser-The-Chainsmokers-Halsey.mp3%2Fedm-50%3A-zing-choice?alt=media&token=aa088c77-71e9-48e7-aecd-eb4b2364fb09",
+          "artist": "The Chainsmokers, Halsey",
+          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FCloser-The-Chainsmokers-Halsey.mp3?alt=media&token=bc8b84dd-e148-455e-afce-b1dea0ee1074",
+          "title": "Closer"
+      },
+      {
+          "duration": 185.616,
+          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FDaydreamer-KarlK-ft-GuitK.mp3?alt=media&token=35cdca93-1a43-40a0-b89a-d55146d93251",
+          "title": "Daydreamer (Radio Edit)",
+          "picture": "",
+          "artist": "KarlK ft. GuitK"
+      },
+      {
+          "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FDon-t-Leave-Me-Now-Lost-Frequencies.mp3%2Fedm-50%3A-zing-choice?alt=media&token=0436ee34-f36b-4419-bc3a-8441f9a9fb13",
+          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FDon-t-Leave-Me-Now-Lost-Frequencies.mp3?alt=media&token=a66fb8c1-174f-4761-bc9f-33a4ae8e99b2",
+          "artist": "Lost Frequencies",
+          "title": "Don't Leave Me Now",
+          "duration": 195.13469387755103
+      },
+      {
+          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FEnd-of-Time-K-391-Alan-Walker-Ahrix.mp3?alt=media&token=1d9deffe-e351-4c83-be0d-55ccccd9d216",
+          "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FEnd-of-Time-K-391-Alan-Walker-Ahrix.mp3%2Fedm-50%3A-zing-choice?alt=media&token=c20bc199-fb2d-454d-a1d4-daab91ca92fc",
+          "artist": "K-391, Alan Walker, Ahrix",
+          "title": "End of Time",
+          "duration": 187.61142857142858
+      },
+      {
+          "duration": 212.66285714285715,
+          "artist": "Alan Walker",
+          "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FFaded-Alan-Walker.mp3%2Fedm-50%3A-zing-choice?alt=media&token=93ae19e9-4472-42be-93dc-c52c9a7cab5c",
+          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FFaded-Alan-Walker.mp3?alt=media&token=272f941c-2136-4843-9d9b-12684effbcd7",
+          "title": "Faded"
+      },
+      {
+          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FImpossible-feat-John-Martin-David-Guetta-MORTEN-John-Martin.mp3?alt=media&token=64a78b83-73bf-4917-824a-107fcf88dccd",
+          "duration": 188.4734693877551,
+          "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FImpossible-feat-John-Martin-David-Guetta-MORTEN-John-Martin.mp3%2Fedm-50%3A-zing-choice?alt=media&token=ec93e123-1ddf-40aa-9bbf-f52901858155",
+          "title": "Impossible (feat. John Martin)",
+          "artist": "David Guetta, MORTEN, John Martin"
+      },
+      {
+          "artist": "Martin Garrix, Bebe Rexha",
+          "title": "In the Name of Love",
+          "duration": 195.65714285714284,
+          "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FIn-the-Name-of-Love-Martin-Garrix-Bebe-Rexha.mp3%2Fedm-50%3A-zing-choice?alt=media&token=dbc48599-5dd1-4e69-be06-cbcac94ed8a1",
+          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FIn-the-Name-of-Love-Martin-Garrix-Bebe-Rexha.mp3?alt=media&token=0b1870fd-5823-44af-846e-6e8d03d30028"
+      },
+      {
+          "artist": "Marshmello, Jonas Brothers",
+          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FLeave-Before-You-Love-Me-Marshmello-Jonas-Brothers.mp3?alt=media&token=aa5879a8-75b9-40f4-a7c3-25fa5ad249b0",
+          "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FLeave-Before-You-Love-Me-Marshmello-Jonas-Brothers.mp3%2Fedm-50%3A-zing-choice?alt=media&token=a2da8270-310a-49c9-a796-14f7e7d91fca",
+          "title": "Leave Before You Love Me",
+          "duration": 155.01061224489797
+      },
+      {
+          "title": "On My Way",
+          "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FOn-My-Way-Alan-Walker-Sabrina-Carpenter-Farruko.mp3%2Fedm-50%3A-zing-choice?alt=media&token=247c0602-281f-41b6-ab07-51ce9afc5440",
+          "duration": 193.82857142857142,
+          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FOn-My-Way-Alan-Walker-Sabrina-Carpenter-Farruko.mp3?alt=media&token=32b389ab-4d66-41f6-820c-2a187dc6f381",
+          "artist": "Alan Walker, Sabrina Carpenter, Farruko"
+      },
+      {
+          "picture": "",
+          "duration": 168.0457142857143,
+          "artist": "K-391, Alan Walker, Martin Tungev",
+          "title": "Play",
+          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FPlay-K-391-Alan-Walker-Martin-Tungev.mp3?alt=media&token=292fe34f-b121-4d7d-beac-383ab5130b79"
+      },
+      {
+          "title": "Ride It",
+          "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FRide-It-Regard.mp3%2Fedm-50%3A-zing-choice?alt=media&token=24d18736-24dc-4964-943c-d50b93145ff4",
+          "artist": "Regard",
+          "duration": 157.64897959183673,
+          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FRide-It-Regard.mp3?alt=media&token=3dfd2c51-bde6-42a4-b835-025230978e22"
+      },
+      {
+          "artist": "DEAMN",
+          "duration": 184.9469387755102,
+          "title": "Save Me",
+          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FSave-Me-DEAMN.mp3?alt=media&token=de6b4671-d146-480a-84cc-f595615f10cf",
+          "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FSave-Me-DEAMN.mp3%2Fedm-50%3A-zing-choice?alt=media&token=df43bf04-0cb9-4880-976d-1a2a1ddd0103"
+      },
+      {
+          "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FShot-Me-Down-Radio-Edit-David-Guetta-Skylar-Grey.mp3%2Fedm-50%3A-zing-choice?alt=media&token=bcb28cfa-ad63-4b1c-948b-419fa1a12f3b",
+          "artist": "David Guetta,Skylar Grey",
+          "duration": 191.42530612244897,
+          "title": "Shot Me Down (Radio Edit)",
+          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FShot-Me-Down-Radio-Edit-David-Guetta-Skylar-Grey.mp3?alt=media&token=0449aae2-3f88-4733-885c-a1f98812649d"
+      },
+      {
+          "duration": 222.56326530612245,
+          "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FSummer-Calvin-Harris.mp3%2Fedm-50%3A-zing-choice?alt=media&token=28c38864-c668-4365-943f-8ed181d6f7c9",
+          "title": "Summer",
+          "artist": "Calvin Harris",
+          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FSummer-Calvin-Harris.mp3?alt=media&token=fd62e9ce-4c76-499b-a689-718dbeca8a8f"
+      },
+      {
+          "artist": "Axel Johansson",
+          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FThe-River-Axel-Johansson.mp3?alt=media&token=8ef063d1-de70-4fb0-9fbb-ac8c81493da6",
+          "duration": 212.24489795918367,
+          "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FThe-River-Axel-Johansson.mp3%2Fedm-50%3A-zing-choice?alt=media&token=f663b0ea-58ab-4998-b906-f8e98c09b937",
+          "title": "The River"
+      },
+      {
+          "artist": "Riton, Oliver Heldens, Vula",
+          "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FTurn-Me-On-Riton-Oliver-Heldens-Vula.mp3%2Fedm-50%3A-zing-choice?alt=media&token=20168cff-1762-4a34-a437-8d4ca6aef253",
+          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FTurn-Me-On-Riton-Oliver-Heldens-Vula.mp3?alt=media&token=f9f6793d-7bbb-40e4-9e6b-5087277e52e4",
+          "title": "Turn Me On",
+          "duration": 208.50938775510204
+      },
+      {
+          "title": "Wish You Well",
+          "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FWish-You-Well-Sigala-Becky-Hill.mp3%2Fedm-50%3A-zing-choice?alt=media&token=aa49f276-1831-4285-914f-c5be2c0ab8cf",
+          "duration": 205.68816326530612,
+          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FWish-You-Well-Sigala-Becky-Hill.mp3?alt=media&token=9c2e5edb-0736-4a81-b7a5-daa14ad363bd",
+          "artist": "Sigala, Becky Hill"
+      },
+      {
+          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FYou-Don-t-Know-Me-Ofenbach-Brodie-Barclay.mp3?alt=media&token=fbacf4e2-e075-4d64-8f7d-254547ef64bc",
+          "title": "You Don't Know me",
+          "duration": 147.905306122449,
+          "artist": "Ofenbach, Brodie Barclay",
+          "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FYou-Don-t-Know-Me-Ofenbach-Brodie-Barclay.mp3%2Fedm-50%3A-zing-choice?alt=media&token=e4570ba2-4c4c-4e43-b6f7-238a2b1bdfb1"
+      }
   ],
-  "song": [
-    {
-      "albumId": "sky-tour",
-      "id": "BHtYxfAzhyh7",
-      "img": "https://i.scdn.co/image/ab67616d00001e025888c34015bebbf123957f6d",
-      "name": "Chúng Ta Của Hiện Tại",
-      "artist": "Sơn Tùng M-TP",
-      "view": 200,
-      "time": "5:01",
-      "source": "https://raw.githubusercontent.com/quanghieu265/spotify-music-storage/master/chungtacuahientai.mp3"
-    },
-    {
-      "albumId": "sky-tour",
-      "id": "PALF1UyaU0Vq",
-      "img": "https://i.scdn.co/image/ab67616d00001e020ac09baba508700ed0b5d4e3",
-      "name": "Hãy Trao Cho Anh",
-      "artist": "Sơn Tùng M-TP",
-      "view": 1000,
-      "time": "4:06",
-      "source": "https://raw.githubusercontent.com/quanghieu265/spotify-music-storage/master/haytraochoanh.mp3"
-    },
-    {
-      "albumId": "sky-tour",
-      "id": "DGTOhicI_DD7",
-      "img": "https://i.scdn.co/image/ab67616d00001e0242ea0500b59064819d1c07fa",
-      "name": "Lạc Trôi",
-      "artist": "Sơn Tùng M-TP",
-      "view": "90",
-      "time": "4:21",
-      "source": "https://raw.githubusercontent.com/quanghieu265/spotify-music-storage/master/lactroi.mp3"
-    },
-    {
-      "albumId": "nhac-nhat-ban",
-      "id": "_u7UIy4Qzys_",
-      "img": "https://i.scdn.co/image/ab67706c0000bebbbc744ba9abd7feb9ab163461",
-      "name": "君の名は (Kimi No Na Wa)",
-      "artist": "Kariyushi 58",
-      "view": 500,
-      "time": "2:35",
-      "source": "https://raw.githubusercontent.com/quanghieu265/spotify-music-storage/master/KimiNoNaWa.mp3"
-    },
-    {
-      "albumId": "nhac-nhat-ban",
-      "id": "TGGddCDFci2I",
-      "source": "https://raw.githubusercontent.com/quanghieu265/spotify-music-storage/master/Sakura%C2%B7IKIMONOGAKARI.mp3",
-      "img": "https://photo-resize-zmp3.zadn.vn/w360_r1x1_jpeg/cover/1/5/c/5/15c59c95fe8c7869e1be37417e4c7d37.jpg",
-      "name": "Sakura",
-      "artist": "IKIMONOGAKARI",
-      "view": "0",
-      "time": "5:53"
-    },
-    {
-      "albumId": "L0OqU38mlN",
-      "id": "5zW03YsqqCAv",
-      "source": "https://raw.githubusercontent.com/quanghieu265/spotify-music-storage/master/SaveYourTears.mp3",
-      "img": "https://photo-resize-zmp3.zadn.vn/w94_r1x1_jpeg/cover/a/9/a/0/a9a0463dad3f9ddf24f990321df657c7.jpg",
-      "name": "Save Your Tears",
-      "artist": "The Weekend",
-      "view": "0",
-      "time": "4:09"
-    },
-    {
-      "albumId": "us-uk",
-      "id": "RPo-AyESWigU",
-      "img": "https://i.scdn.co/image/ab67616d00001e02633a2d775747bccfbcb17a45",
-      "name": "We Don't Talk Anymore",
-      "artist": "Charlie Puth - Selena Gomez",
-      "view": 600,
-      "time": "3:50",
-      "source": "https://raw.githubusercontent.com/quanghieu265/spotify-music-storage/master/We%20Don't%20Talk%20Anymore%20%C2%B7%20Charlie%20Puth%20-%20Selena%20Gomez.mp3"
-    },
-    {
-      "albumId": "hmt64ju1WL",
-      "source": "https://raw.githubusercontent.com/quanghieu265/spotify-music-storage/master/bts_boy_with_luv_feat_halsey_official_mv_-4199419685257816501.mp3",
-      "img": "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/avatars/1/8/18e2999891374a475d0687ca9f989d83_1486908486.jpg",
-      "name": "Boy With Luv",
-      "artist": "BTS",
-      "view": "0",
-      "time": "4:12",
-      "id": "WCAgofYnwoDn"
-    }
+  "id": "3f6ACkdCloMzL5E0bMyc"
+}
   ]
 }
