@@ -134,6 +134,7 @@
   "album": [
     {
     "cover": "https://photo-playlist-zmp3.zadn.vn/s1/mixtape?src=HavwqN7EYmrDGr6VBegUMHOLKPiyqPa4L1K6cppHpXfK2rFEQzFF6m810feutyyS1r5Md6Y3cXm0M0FFQ8235K4C3uawYyXN23yKZZQypXnLTG7QRUhE64Sk1eSgwieO4Iu2d2gdcKX7U02RAA2R74OgLCadfCbC77rHdoUYdKaQUHsJC_MH3qXgMiTbeyvLVWGXfco_nbXB8dq&cv=1&size=thumb/240_240",
+    "slug": "nhung-bai-hat-cua-sia",
     "songs": [
         {
             "artist": "Sia",
@@ -183,6 +184,7 @@
 },
     {
   "title": "EDM 50: Zing Choice",
+  "slug": "Edm-50-zing-choice",
   "cover": "https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/cover/8/8/a/1/88a128c0862363b40d395dff2a62921e.jpg",
   "songs": [
       {
