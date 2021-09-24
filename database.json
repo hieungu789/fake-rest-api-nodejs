@@ -329,6 +329,68 @@
       }
   ],
   "id": "3f6ACkdCloMzL5E0bMyc"
-}
+},
+    {
+    "cover":
+      "https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/cover/e/b/7/f/eb7fdc1f8d726c5cb30868562215b807.jpg",
+    "songs": [
+      {
+        "artist": "Sia",
+        "song":
+          "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fnh%E1%BB%AFng-b%C3%A0i-h%C3%A1t-hay-nh%E1%BA%A5t-c%E1%BB%A7a-sia%2FCheap-Thrills-Sia.mp3?alt=media&token=6cecd82a-d3d3-4132-a8b8-b68877ed33ca",
+        "title": "Cheap Thrills",
+        "duration": 211.69632653061225,
+        "picture": ""
+      },
+      {
+        "title": "Cheap Thrills",
+        "artist": "Sia, Sean Paul",
+        "duration": 224.52244897959184,
+        "picture":
+          "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fnh%E1%BB%AFng-b%C3%A0i-h%C3%A1t-hay-nh%E1%BA%A5t-c%E1%BB%A7a-sia%2FCheap-Thrills-Sia-Sean-Paul.mp3%2Fnh%E1%BB%AFng-b%C3%A0i-h%C3%A1t-hay-nh%E1%BA%A5t-c%E1%BB%A7a-sia?alt=media&token=be1aa043-33f0-46ad-a6ff-03ffe88f385d",
+        "song":
+          "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fnh%E1%BB%AFng-b%C3%A0i-h%C3%A1t-hay-nh%E1%BA%A5t-c%E1%BB%A7a-sia%2FCheap-Thrills-Sia-Sean-Paul.mp3?alt=media&token=1f03c7aa-c1c5-429a-936f-8143c3cbdadb"
+      }
+    ],
+    "title": "Những Bài Hát Hay Nhất Của DEAMN",
+    "id": "7nfHJSXAmreUUeLFXjUa"
+  },
+  {
+    "title": "Những Bài Hát Hay Nhất Của Alan Walker",
+    "cover":
+      "https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/cover/4/9/1/b/491bc8d5ca36d5d58d4fdb926533490b.jpg",
+    "songs": [
+      {
+        "title": "Alone",
+        "artist": "Marshmello",
+        "picture":
+          "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FAlone-Marshmello.mp3%2Fedm-50%3A-zing-choice?alt=media&token=d11532b0-6dec-4f39-b072-b281c8bbef82",
+        "song":
+          "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FAlone-Marshmello.mp3?alt=media&token=b66da9e3-b19b-4b99-9b7e-7fa3eeed1f8f",
+        "duration": 273.8416326530612
+      },
+      {
+        "artist": "Calvin Harris, Tom Grennan",
+        "title": "By Your Side",
+        "song":
+          "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FBy-Your-Side-Calvin-Harris-Tom-Grennan.mp3?alt=media&token=3422b4c0-5ae8-4d36-934d-45474b81bc79",
+        "duration": 189.70122448979592,
+        "picture":
+          "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FBy-Your-Side-Calvin-Harris-Tom-Grennan.mp3%2Fedm-50%3A-zing-choice?alt=media&token=0e3f7993-559e-4035-8f5a-b2c10a3502d1"
+      }
+    ],
+    "id": "803uCqS0Nj5bxAlXaCHA"
+  },{
+    "title": "Let's Love: Yêu Cùng EDM",
+    "cover":
+      "https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/cover/4/9/1/b/491bc8d5ca36d5d58d4fdb926533490b.jpg",
+    "id": "I4piYpY1CfLC9rKULfnf"
+  }
+    ,{
+    "title": "Nhạc US-UK Tâm Trạng Hay Nhất",
+    "cover":
+      "https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/cover/4/9/1/b/491bc8d5ca36d5d58d4fdb926533490b.jpg",
+    "id": "NXv3OBmcGhh95XJ7qNVx"
+  }
   ]
 }
