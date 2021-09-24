@@ -130,5 +130,153 @@
       "price": 5000000
     }
     
+  ],
+ "playlist": [
+    {
+      "id": "52U82",
+      "title": "Mới Phát Hành"
+    },
+    {
+      "id": "26G94",
+      "title": "Nhạc Nước Ngoài"
+    },
+    {
+      "title": "Những Bản Hits Việt",
+      "id": "COSm5m7jUF"
+    },
+    {
+      "title": "Nghệ Sĩ",
+      "id": "8Sj30vanny"
+    }
+  ],
+  "album": [
+    {
+      "playlistId": "52U82",
+      "id": "sky-tour",
+      "img": "https://i.scdn.co/image/ab67616d00001e027663e8afc902209090664782",
+      "name": "Sky Tour",
+      "describe": "Original Motion Picture Soundtrack"
+    },
+    {
+      "playlistId": "26G94",
+      "id": "us-uk",
+      "img": "https://mosaic.scdn.co/300/ab67616d0000b2731b6da489c1cb4c5a301a17fcab67616d0000b273459d675aa0b6f3b211357370ab67616d0000b273a787f718fb485b66d6219247ab67616d0000b273e6095c382c2853667c1623eb",
+      "name": "US-UK",
+      "describe": "US-UK"
+    },
+    {
+      "playlistId": "52U82",
+      "id": "nhac-nhat-ban",
+      "img": "https://archive.org/download/345786438538534345355/345786438538534345355.jpg",
+      "name": "Nhạc Nhật Bản",
+      "describe": "Nhạc Nhật Bản"
+    },
+    {
+      "playlistId": "52U82",
+      "img": "https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/cover/3/a/f/e/3afe5c42b39a0914344918c343d8b3ed.jpg",
+      "name": "K-Pop Hits!",
+      "describe": "Những bản nhạc K-pop đang hot",
+      "id": "hmt64ju1WL"
+    },
+    {
+      "playlistId": "8Sj30vanny",
+      "img": "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/avatars/2/1/6/3/2163928412f08e472f98e8eabd3ec046.jpg",
+      "bg_color": "#000000",
+      "bg_album": "",
+      "name": "The Weekend",
+      "describe": "All song from The Weekend",
+      "id": "L0OqU38mlN"
+    },
+    {
+      "playlistId": "COSm5m7jUF",
+      "img": "https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/cover/3/f/d/0/3fd0229f5cf4ef79e652b4821fd0f97b.jpg",
+      "bg_color": "#000000",
+      "bg_album": "",
+      "name": "V-Pop 2021 Nghe Gì?",
+      "describe": "Những Giai Điệu V-Pop Tươi Vui",
+      "id": "gNSj4Qd5tw"
+    }
+  ],
+  "song": [
+    {
+      "albumId": "sky-tour",
+      "id": "BHtYxfAzhyh7",
+      "img": "https://i.scdn.co/image/ab67616d00001e025888c34015bebbf123957f6d",
+      "name": "Chúng Ta Của Hiện Tại",
+      "artist": "Sơn Tùng M-TP",
+      "view": 200,
+      "time": "5:01",
+      "source": "https://raw.githubusercontent.com/quanghieu265/spotify-music-storage/master/chungtacuahientai.mp3"
+    },
+    {
+      "albumId": "sky-tour",
+      "id": "PALF1UyaU0Vq",
+      "img": "https://i.scdn.co/image/ab67616d00001e020ac09baba508700ed0b5d4e3",
+      "name": "Hãy Trao Cho Anh",
+      "artist": "Sơn Tùng M-TP",
+      "view": 1000,
+      "time": "4:06",
+      "source": "https://raw.githubusercontent.com/quanghieu265/spotify-music-storage/master/haytraochoanh.mp3"
+    },
+    {
+      "albumId": "sky-tour",
+      "id": "DGTOhicI_DD7",
+      "img": "https://i.scdn.co/image/ab67616d00001e0242ea0500b59064819d1c07fa",
+      "name": "Lạc Trôi",
+      "artist": "Sơn Tùng M-TP",
+      "view": "90",
+      "time": "4:21",
+      "source": "https://raw.githubusercontent.com/quanghieu265/spotify-music-storage/master/lactroi.mp3"
+    },
+    {
+      "albumId": "nhac-nhat-ban",
+      "id": "_u7UIy4Qzys_",
+      "img": "https://i.scdn.co/image/ab67706c0000bebbbc744ba9abd7feb9ab163461",
+      "name": "君の名は (Kimi No Na Wa)",
+      "artist": "Kariyushi 58",
+      "view": 500,
+      "time": "2:35",
+      "source": "https://raw.githubusercontent.com/quanghieu265/spotify-music-storage/master/KimiNoNaWa.mp3"
+    },
+    {
+      "albumId": "nhac-nhat-ban",
+      "id": "TGGddCDFci2I",
+      "source": "https://raw.githubusercontent.com/quanghieu265/spotify-music-storage/master/Sakura%C2%B7IKIMONOGAKARI.mp3",
+      "img": "https://photo-resize-zmp3.zadn.vn/w360_r1x1_jpeg/cover/1/5/c/5/15c59c95fe8c7869e1be37417e4c7d37.jpg",
+      "name": "Sakura",
+      "artist": "IKIMONOGAKARI",
+      "view": "0",
+      "time": "5:53"
+    },
+    {
+      "albumId": "L0OqU38mlN",
+      "id": "5zW03YsqqCAv",
+      "source": "https://raw.githubusercontent.com/quanghieu265/spotify-music-storage/master/SaveYourTears.mp3",
+      "img": "https://photo-resize-zmp3.zadn.vn/w94_r1x1_jpeg/cover/a/9/a/0/a9a0463dad3f9ddf24f990321df657c7.jpg",
+      "name": "Save Your Tears",
+      "artist": "The Weekend",
+      "view": "0",
+      "time": "4:09"
+    },
+    {
+      "albumId": "us-uk",
+      "id": "RPo-AyESWigU",
+      "img": "https://i.scdn.co/image/ab67616d00001e02633a2d775747bccfbcb17a45",
+      "name": "We Don't Talk Anymore",
+      "artist": "Charlie Puth - Selena Gomez",
+      "view": 600,
+      "time": "3:50",
+      "source": "https://raw.githubusercontent.com/quanghieu265/spotify-music-storage/master/We%20Don't%20Talk%20Anymore%20%C2%B7%20Charlie%20Puth%20-%20Selena%20Gomez.mp3"
+    },
+    {
+      "albumId": "hmt64ju1WL",
+      "source": "https://raw.githubusercontent.com/quanghieu265/spotify-music-storage/master/bts_boy_with_luv_feat_halsey_official_mv_-4199419685257816501.mp3",
+      "img": "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/avatars/1/8/18e2999891374a475d0687ca9f989d83_1486908486.jpg",
+      "name": "Boy With Luv",
+      "artist": "BTS",
+      "view": "0",
+      "time": "4:12",
+      "id": "WCAgofYnwoDn"
+    }
   ]
 }
