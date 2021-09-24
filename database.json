@@ -380,35 +380,6 @@
       }
     ],
     "id": "803uCqS0Nj5bxAlXaCHA"
-  },{
-    "title": "Let's Love: Yêu Cùng EDM",
-    "cover":
-      "https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/cover/4/9/1/b/491bc8d5ca36d5d58d4fdb926533490b.jpg",
-    "songs": [
-      {
-        "artist": "Sia",
-        "song":
-          "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fnh%E1%BB%AFng-b%C3%A0i-h%C3%A1t-hay-nh%E1%BA%A5t-c%E1%BB%A7a-sia%2FCheap-Thrills-Sia.mp3?alt=media&token=6cecd82a-d3d3-4132-a8b8-b68877ed33ca",
-        "title": "Cheap Thrills",
-        "duration": 211.69632653061225,
-        "picture": ""
-      },
-    "id": "I4piYpY1CfLC9rKULfnf"
-  }
-    ,{
-    "title": "Nhạc US-UK Tâm Trạng Hay Nhất",
-    "cover":
-      "https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/cover/4/9/1/b/491bc8d5ca36d5d58d4fdb926533490b.jpg",
-      "songs": [
-      {
-        "artist": "Sia",
-        "song":
-          "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fnh%E1%BB%AFng-b%C3%A0i-h%C3%A1t-hay-nh%E1%BA%A5t-c%E1%BB%A7a-sia%2FCheap-Thrills-Sia.mp3?alt=media&token=6cecd82a-d3d3-4132-a8b8-b68877ed33ca",
-        "title": "Cheap Thrills",
-        "duration": 211.69632653061225,
-        "picture": ""
-      },
-    "id": "NXv3OBmcGhh95XJ7qNVx"
   }
   ]
 }
