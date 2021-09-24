@@ -141,7 +141,7 @@
             "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fnh%E1%BB%AFng-b%C3%A0i-h%C3%A1t-hay-nh%E1%BA%A5t-c%E1%BB%A7a-sia%2FCheap-Thrills-Sia.mp3?alt=media&token=6cecd82a-d3d3-4132-a8b8-b68877ed33ca",
             "title": "Cheap Thrills",
             "duration": 211.69632653061225,
-            "picture": ""
+            "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/Sia_Abrasives_logo.png"
         },
         {
             "title": "Cheap Thrills",
@@ -161,7 +161,7 @@
             "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fnh%E1%BB%AFng-b%C3%A0i-h%C3%A1t-hay-nh%E1%BA%A5t-c%E1%BB%A7a-sia%2FMove-Your-Body-Alan-Walker-Remix-Sia.mp3?alt=media&token=42194ff5-3dfd-48ed-9ed7-dfd7a2f42dc6",
             "artist": "Sia",
             "duration": 217.9395918367347,
-            "picture": "",
+            "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/Sia_Abrasives_logo.png",
             "title": "Move Your Body (Alan Walker Remix)"
         },
         {
@@ -212,7 +212,7 @@
           "duration": 185.616,
           "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FDaydreamer-KarlK-ft-GuitK.mp3?alt=media&token=35cdca93-1a43-40a0-b89a-d55146d93251",
           "title": "Daydreamer (Radio Edit)",
-          "picture": "",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/Sia_Abrasives_logo.png",
           "artist": "KarlK ft. GuitK"
       },
       {
@@ -265,7 +265,7 @@
           "artist": "Alan Walker, Sabrina Carpenter, Farruko"
       },
       {
-          "picture": "",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/Sia_Abrasives_logo.png",
           "duration": 168.0457142857143,
           "artist": "K-391, Alan Walker, Martin Tungev",
           "title": "Play",
