@@ -195,62 +195,6 @@
           "duration": 273.8416326530612
       },
       {
-          "artist": "Calvin Harris, Tom Grennan",
-          "title": "By Your Side",
-          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FBy-Your-Side-Calvin-Harris-Tom-Grennan.mp3?alt=media&token=3422b4c0-5ae8-4d36-934d-45474b81bc79",
-          "duration": 189.70122448979592,
-          "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FBy-Your-Side-Calvin-Harris-Tom-Grennan.mp3%2Fedm-50%3A-zing-choice?alt=media&token=0e3f7993-559e-4035-8f5a-b2c10a3502d1"
-      },
-      {
-          "duration": 245.55102040816325,
-          "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FCloser-The-Chainsmokers-Halsey.mp3%2Fedm-50%3A-zing-choice?alt=media&token=aa088c77-71e9-48e7-aecd-eb4b2364fb09",
-          "artist": "The Chainsmokers, Halsey",
-          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FCloser-The-Chainsmokers-Halsey.mp3?alt=media&token=bc8b84dd-e148-455e-afce-b1dea0ee1074",
-          "title": "Closer"
-      },
-      {
-          "duration": 185.616,
-          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FDaydreamer-KarlK-ft-GuitK.mp3?alt=media&token=35cdca93-1a43-40a0-b89a-d55146d93251",
-          "title": "Daydreamer (Radio Edit)",
-          "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/Sia_Abrasives_logo.png",
-          "artist": "KarlK ft. GuitK"
-      },
-      {
-          "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FDon-t-Leave-Me-Now-Lost-Frequencies.mp3%2Fedm-50%3A-zing-choice?alt=media&token=0436ee34-f36b-4419-bc3a-8441f9a9fb13",
-          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FDon-t-Leave-Me-Now-Lost-Frequencies.mp3?alt=media&token=a66fb8c1-174f-4761-bc9f-33a4ae8e99b2",
-          "artist": "Lost Frequencies",
-          "title": "Don't Leave Me Now",
-          "duration": 195.13469387755103
-      },
-      {
-          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FEnd-of-Time-K-391-Alan-Walker-Ahrix.mp3?alt=media&token=1d9deffe-e351-4c83-be0d-55ccccd9d216",
-          "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FEnd-of-Time-K-391-Alan-Walker-Ahrix.mp3%2Fedm-50%3A-zing-choice?alt=media&token=c20bc199-fb2d-454d-a1d4-daab91ca92fc",
-          "artist": "K-391, Alan Walker, Ahrix",
-          "title": "End of Time",
-          "duration": 187.61142857142858
-      },
-      {
-          "duration": 212.66285714285715,
-          "artist": "Alan Walker",
-          "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FFaded-Alan-Walker.mp3%2Fedm-50%3A-zing-choice?alt=media&token=93ae19e9-4472-42be-93dc-c52c9a7cab5c",
-          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FFaded-Alan-Walker.mp3?alt=media&token=272f941c-2136-4843-9d9b-12684effbcd7",
-          "title": "Faded"
-      },
-      {
-          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FImpossible-feat-John-Martin-David-Guetta-MORTEN-John-Martin.mp3?alt=media&token=64a78b83-73bf-4917-824a-107fcf88dccd",
-          "duration": 188.4734693877551,
-          "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FImpossible-feat-John-Martin-David-Guetta-MORTEN-John-Martin.mp3%2Fedm-50%3A-zing-choice?alt=media&token=ec93e123-1ddf-40aa-9bbf-f52901858155",
-          "title": "Impossible (feat. John Martin)",
-          "artist": "David Guetta, MORTEN, John Martin"
-      },
-      {
-          "artist": "Martin Garrix, Bebe Rexha",
-          "title": "In the Name of Love",
-          "duration": 195.65714285714284,
-          "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FIn-the-Name-of-Love-Martin-Garrix-Bebe-Rexha.mp3%2Fedm-50%3A-zing-choice?alt=media&token=dbc48599-5dd1-4e69-be06-cbcac94ed8a1",
-          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FIn-the-Name-of-Love-Martin-Garrix-Bebe-Rexha.mp3?alt=media&token=0b1870fd-5823-44af-846e-6e8d03d30028"
-      },
-      {
           "artist": "Marshmello, Jonas Brothers",
           "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FLeave-Before-You-Love-Me-Marshmello-Jonas-Brothers.mp3?alt=media&token=aa5879a8-75b9-40f4-a7c3-25fa5ad249b0",
           "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FLeave-Before-You-Love-Me-Marshmello-Jonas-Brothers.mp3%2Fedm-50%3A-zing-choice?alt=media&token=a2da8270-310a-49c9-a796-14f7e7d91fca",
