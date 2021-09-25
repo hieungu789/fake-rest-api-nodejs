@@ -195,20 +195,6 @@
           "artist": "Alan Walker, Sabrina Carpenter, Farruko"
       },
       {
-          "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/Sia_Abrasives_logo.png",
-          "duration": 168.0457142857143,
-          "artist": "K-391, Alan Walker, Martin Tungev",
-          "title": "Play",
-          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FPlay-K-391-Alan-Walker-Martin-Tungev.mp3?alt=media&token=292fe34f-b121-4d7d-beac-383ab5130b79"
-      },
-      {
-          "title": "Ride It",
-          "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FRide-It-Regard.mp3%2Fedm-50%3A-zing-choice?alt=media&token=24d18736-24dc-4964-943c-d50b93145ff4",
-          "artist": "Regard",
-          "duration": 157.64897959183673,
-          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FRide-It-Regard.mp3?alt=media&token=3dfd2c51-bde6-42a4-b835-025230978e22"
-      },
-      {
           "artist": "DEAMN",
           "duration": 184.9469387755102,
           "title": "Save Me",
@@ -242,20 +228,6 @@
           "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FTurn-Me-On-Riton-Oliver-Heldens-Vula.mp3?alt=media&token=f9f6793d-7bbb-40e4-9e6b-5087277e52e4",
           "title": "Turn Me On",
           "duration": 208.50938775510204
-      },
-      {
-          "title": "Wish You Well",
-          "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FWish-You-Well-Sigala-Becky-Hill.mp3%2Fedm-50%3A-zing-choice?alt=media&token=aa49f276-1831-4285-914f-c5be2c0ab8cf",
-          "duration": 205.68816326530612,
-          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FWish-You-Well-Sigala-Becky-Hill.mp3?alt=media&token=9c2e5edb-0736-4a81-b7a5-daa14ad363bd",
-          "artist": "Sigala, Becky Hill"
-      },
-      {
-          "song": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FYou-Don-t-Know-Me-Ofenbach-Brodie-Barclay.mp3?alt=media&token=fbacf4e2-e075-4d64-8f7d-254547ef64bc",
-          "title": "You Don't Know me",
-          "duration": 147.905306122449,
-          "artist": "Ofenbach, Brodie Barclay",
-          "picture": "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FYou-Don-t-Know-Me-Ofenbach-Brodie-Barclay.mp3%2Fedm-50%3A-zing-choice?alt=media&token=e4570ba2-4c4c-4e43-b6f7-238a2b1bdfb1"
       }
   ],
   "id": "3f6ACkdCloMzL5E0bMyc"
