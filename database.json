@@ -435,30 +435,7 @@
   ],
   
   "addplaylist" : [
-    {
-      "id":1,
-      "songplaylist":[
-              {
-        "title": "Alone",
-        "artist": "Marshmello",
-        "picture":
-          "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FAlone-Marshmello.mp3%2Fedm-50%3A-zing-choice?alt=media&token=d11532b0-6dec-4f39-b072-b281c8bbef82",
-        "song":
-          "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FAlone-Marshmello.mp3?alt=media&token=b66da9e3-b19b-4b99-9b7e-7fa3eeed1f8f",
-        "duration": 273.8416326530612
-      },
-      {
-        "artist": "Calvin Harris, Tom Grennan",
-        "title": "By Your Side",
-        "song":
-          "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/album%2Fedm-50%3A-zing-choice%2FBy-Your-Side-Calvin-Harris-Tom-Grennan.mp3?alt=media&token=3422b4c0-5ae8-4d36-934d-45474b81bc79",
-        "duration": 189.70122448979592,
-        "picture":
-          "https://firebasestorage.googleapis.com/v0/b/zingmp3-13250.appspot.com/o/imageSongs%2Fedm-50%3A-zing-choice%2FBy-Your-Side-Calvin-Harris-Tom-Grennan.mp3%2Fedm-50%3A-zing-choice?alt=media&token=0e3f7993-559e-4035-8f5a-b2c10a3502d1"
-      }
-      ],
-      "name":"vape"
-    }
+   
   ]
   
   
